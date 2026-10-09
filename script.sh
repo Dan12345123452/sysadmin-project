@@ -4,6 +4,7 @@ INTERVAL=10
 LOG_FILE="monitor.log"
 
 echo "Мониторинг запущен. Интервал: ${INTERVAL} секунд."
+echo "Результаты записываются в: ${LOG_FILE}"
 echo "Остановка: Ctrl+C"
 
 while true; do
